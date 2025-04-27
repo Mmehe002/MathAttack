@@ -1,0 +1,82 @@
+[
+    {
+        "question": "16 ÷ 4 = ?",
+        "choice1": "4",
+        "choice2": "5",
+        "choice3": "6",
+        "choice4": "7",
+        "answer": 1
+    },
+    {
+        "question": "20 ÷ 5 = ?",
+        "choice1": "2",
+        "choice2": "3",
+        "choice3": "4",
+        "choice4": "5",
+        "answer": 3
+    },
+    {
+        "question": "18 ÷ 3 = ?",
+        "choice1": "5",
+        "choice2": "6",
+        "choice3": "7",
+        "choice4": "8",
+        "answer": 2
+    },
+    {
+        "question": "24 ÷ 6 = ?",
+        "choice1": "3",
+        "choice2": "4",
+        "choice3": "5",
+        "choice4": "6",
+        "answer": 2
+    },
+    {
+        "question": "30 ÷ 10 = ?",
+        "choice1": "2",
+        "choice2": "3",
+        "choice3": "4",
+        "choice4": "5",
+        "answer": 2
+    },
+    {
+        "question": "45 ÷ 9 = ?",
+        "choice1": "4",
+        "choice2": "5",
+        "choice3": "6",
+        "choice4": "7",
+        "answer": 2
+    },
+    {
+        "question": "56 ÷ 8 = ?",
+        "choice1": "6",
+        "choice2": "7",
+        "choice3": "8",
+        "choice4": "9",
+        "answer": 2
+    },
+    {
+        "question": "72 ÷ 9 = ?",
+        "choice1": "7",
+        "choice2": "8",
+        "choice3": "9",
+        "choice4": "10",
+        "answer": 2
+    },
+    {
+        "question": "100 ÷ 25 = ?",
+        "choice1": "2",
+        "choice2": "3",
+        "choice3": "4",
+        "choice4": "5",
+        "answer": 3
+    },
+    {
+        "question": "81 ÷ 9 = ?",
+        "choice1": "7",
+        "choice2": "8",
+        "choice3": "9",
+        "choice4": "10",
+        "answer": 3
+    }
+]

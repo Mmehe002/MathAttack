@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: rgb(230, 167, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.back_btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+} 
+
+.missing_container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 70%; /* ✏️ Added this */
+  max-width: 800px; /* Optional: so it doesn't get *too* huge on big screens */
+  transition: transform 0.3s;
+}
+
+
+#missing_number {
+  display: flex;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.missing {
+  color: red;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.correct {
+  animation: grow 0.5s forwards;
+}
+
+.incorrect {
+  animation: shake 0.5s;
+}
+
+@keyframes grow {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-10px); }
+  75% { transform: translateX(10px); }
+}

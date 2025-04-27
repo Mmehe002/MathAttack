@@ -1,0 +1,82 @@
+[
+    {
+        "question": "15 - 7 = ?",
+        "choice1": "6",
+        "choice2": "7",
+        "choice3": "8",
+        "choice4": "9",
+        "answer": 3
+    },
+    {
+        "question": "20 - 9 = ?",
+        "choice1": "9",
+        "choice2": "10",
+        "choice3": "11",
+        "choice4": "12",
+        "answer": 3
+    },
+    {
+        "question": "30 - 12 = ?",
+        "choice1": "16",
+        "choice2": "17",
+        "choice3": "18",
+        "choice4": "19",
+        "answer": 3
+    },
+    {
+        "question": "50 - 25 = ?",
+        "choice1": "20",
+        "choice2": "25",
+        "choice3": "30",
+        "choice4": "35",
+        "answer": 2
+    },
+    {
+        "question": "40 - 18 = ?",
+        "choice1": "20",
+        "choice2": "21",
+        "choice3": "22",
+        "choice4": "23",
+        "answer": 3
+    },
+    {
+        "question": "60 - 27 = ?",
+        "choice1": "32",
+        "choice2": "33",
+        "choice3": "34",
+        "choice4": "35",
+        "answer": 2
+    },
+    {
+        "question": "75 - 40 = ?",
+        "choice1": "30",
+        "choice2": "31",
+        "choice3": "32",
+        "choice4": "35",
+        "answer": 4
+    },
+    {
+        "question": "90 - 45 = ?",
+        "choice1": "42",
+        "choice2": "43",
+        "choice3": "44",
+        "choice4": "45",
+        "answer": 4
+    },
+    {
+        "question": "100 - 55 = ?",
+        "choice1": "40",
+        "choice2": "43",
+        "choice3": "45",
+        "choice4": "47",
+        "answer": 3
+    },
+    {
+        "question": "120 - 60 = ?",
+        "choice1": "55",
+        "choice2": "57",
+        "choice3": "58",
+        "choice4": "60",
+        "answer": 4
+    }
+]

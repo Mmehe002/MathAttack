@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Equation Builder Game</title>
+  <link rel="stylesheet" href="/project_app/style.css" />
+  <link rel="stylesheet" href="drag.css" />
+</head>
+<body>
+    <div class="back_btn">
+        <a href="/project_app/activities.html">
+            <img src="/project_app/assets/icons/back.svg" alt="back" width="75" height="75">
+        </a>
+    </div>
+    <div class="drag_container" id="drag_container">
+        <h2>Build an equation to match the target!</h2>
+        <div class="equation">
+            <!-- creating the boxes where the user drags the values into -->
+            <div class="dropzone" id="slot1" data-slot></div>
+            <div class="dropzone" id="slot2" data-slot></div>
+            <div class="dropzone" id="slot3" data-slot></div>
+            <div class="equals">=</div>
+            <div class="target-result" id="target">0</div>
+        </div>
+        <!-- adding the operations as blocks to drag -->
+        <div class="operators">
+            <div class="drag_btn" draggable="true" data-value="+">+</div>
+            <div class="drag_btn" draggable="true" data-value="-">−</div>
+            <div class="drag_btn" draggable="true" data-value="*">×</div>
+            <div class="drag_btn" draggable="true" data-value="/">÷</div>
+        </div>
+        
+        <div class="numbers">
+            <!-- creating the class numbers for the random numbers to be added here  -->
+        </div>
+        <!-- linking the javascript to the enter button so we can see if it is correct   -->
+        <button class="submit" onclick="checkEquation()">Enter</button>
+    </div>
+    
+    
+    <script src="drag.js"></script>
+</body>
+</html>

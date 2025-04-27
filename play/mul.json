@@ -1,0 +1,82 @@
+[
+    {
+        "question": "4 × 3 = ?",
+        "choice1": "10",
+        "choice2": "11",
+        "choice3": "12",
+        "choice4": "13",
+        "answer": 3
+    },
+    {
+        "question": "5 × 6 = ?",
+        "choice1": "25",
+        "choice2": "30",
+        "choice3": "35",
+        "choice4": "40",
+        "answer": 2
+    },
+    {
+        "question": "7 × 2 = ?",
+        "choice1": "12",
+        "choice2": "14",
+        "choice3": "16",
+        "choice4": "18",
+        "answer": 2
+    },
+    {
+        "question": "8 × 4 = ?",
+        "choice1": "28",
+        "choice2": "30",
+        "choice3": "32",
+        "choice4": "34",
+        "answer": 3
+    },
+    {
+        "question": "9 × 5 = ?",
+        "choice1": "40",
+        "choice2": "45",
+        "choice3": "50",
+        "choice4": "55",
+        "answer": 2
+    },
+    {
+        "question": "6 × 6 = ?",
+        "choice1": "30",
+        "choice2": "32",
+        "choice3": "34",
+        "choice4": "36",
+        "answer": 4
+    },
+    {
+        "question": "3 × 9 = ?",
+        "choice1": "25",
+        "choice2": "26",
+        "choice3": "27",
+        "choice4": "28",
+        "answer": 3
+    },
+    {
+        "question": "12 × 2 = ?",
+        "choice1": "22",
+        "choice2": "23",
+        "choice3": "24",
+        "choice4": "25",
+        "answer": 3
+    },
+    {
+        "question": "11 × 3 = ?",
+        "choice1": "30",
+        "choice2": "31",
+        "choice3": "32",
+        "choice4": "33",
+        "answer": 4
+    },
+    {
+        "question": "10 × 10 = ?",
+        "choice1": "90",
+        "choice2": "95",
+        "choice3": "100",
+        "choice4": "105",
+        "answer": 3
+    }
+]

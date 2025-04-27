@@ -1,0 +1,326 @@
+/* root */
+:root {
+    --background-color: rgb(230, 167, 255);
+    font-size: 62.5%;
+}
+body {
+    background-color: var(--background-color); /* Your new color */
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+h1, h2, h3, h4 {
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-size: 7rem;
+    color: rgb(15, 50, 82);
+    margin-bottom: 5rem;
+}
+
+h1 > span {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+
+/* utilities */
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.container > *{
+    width: 100%;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+/* Button */
+.btn {
+    --color: #560bad;
+    font-family: inherit;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color 0.5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: var(--color);
+    text-decoration: none;
+}
+  
+.btn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 180px;
+    width: 230px;
+    border-radius: 50%;
+}
+  
+.btn:hover {
+    color: #fff;
+}
+  
+.btn:before {
+    top: 100%;
+    left: 100%;
+    transition: all 0.7s;
+}
+  
+.btn:hover:before {
+    top: -30px;
+    left: -30px;
+}
+  
+.btn:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+}
+  
+/* .btn{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid rgb(25, 80, 255);
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #a7ffc5;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 0, 17, 0.7);
+    transition: transform 0.7s;
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none; */
+/* } */
+
+/* forms */
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(0, 19, 10, 0.5);
+}
+
+input::placeholder{
+    color: #aaa;
+}
+
+
+.login_btn{
+    font-size: 1.8rem;
+    margin-right: 0%;
+    margin-left: auto;
+    padding: 1rem 0;
+    width: 15rem;
+    text-align: center;
+    border: 0.1rem solid rgb(25, 80, 255);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #ff7cf4;
+    border-radius: 8px;
+}
+
+.back_btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 10; 
+  }
+  
+  .back_btn img {
+    width: 75px;
+    height: 75px;
+  }
+  
+
+.login_btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 0, 17, 0.7);
+    background-color: linear-gradient(90deg, #f3dcf1 0%, #ff7cf4 100%);
+    transition: transform 0.9s;
+}
+.login_btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+.main_title{
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: rgb(15, 50, 82);
+}
+
+.main_text{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: rgb(15, 50, 82);
+}
+
+.billboard{
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.deck{
+    display: flex;
+    justify-content: center; /* Center them horizontally */
+    gap: 2rem; /* Space between cards */
+    margin-top: auto;
+    margin-bottom: 50px; /* Push them near the bottom */
+    position: relative;
+    min-height: 40vh; /* So they appear towards bottom */
+    align-items: flex-end;
+}
+
+.deck_card {
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem;
+    margin-top: auto;
+    margin-bottom: 3.5rem;
+    width: 30rem;
+    height: 254px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: hidden;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .deck_card-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+   
+   .deck_card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #008bf8;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+   }
+   
+   .text-body {
+    color: rgb(134, 134, 134);
+    font-size: 1.5rem;
+   }
+   
+   /*Text*/
+   .text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+   }
+   
+   /*Hover*/
+   .deck_card:hover {
+    border-color: #008bf8;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .deck_card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+   }

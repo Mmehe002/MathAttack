@@ -1,0 +1,125 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.back_btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+}
+
+.drag_container {
+  background: white;
+  padding: 40px; /* Increased padding */
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 80%; /* Increased width */
+  height: 60%; /* Increased height */
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+h2 {
+  font-size: 36px; /* Increased font size */
+  margin-bottom: 20px; /* Increased margin */
+}
+
+.equation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Increased gap between elements */
+  margin-bottom: 30px; /* Increased margin */
+}
+
+.dropzone {
+  border: 3px dashed #ccc; /* Increased border width */
+  width: 100px; /* Increased width */
+  height: 60px; /* Increased height */
+  border-radius: 8px;
+  line-height: 60px; /* Adjusted line height for alignment */
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+  background: #f9fafb;
+  font-size: 24px; /* Increased font size */
+}
+
+.highlight {
+  border-color: #3b82f6;
+}
+
+.operators, .numbers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Increased gap between elements */
+  margin: 20px 0; /* Increased margin */
+}
+
+.drag_btn {
+  padding: 15px 20px; /* Increased padding */
+  font-weight: bold;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  border-radius: 10px;
+  cursor: grab;
+  user-select: none;
+  font-size: 28px; /* Increased font size */
+}
+
+.number {
+  background: #22c55e;
+}
+
+button.submit {
+  margin-top: 30px; /* Increased margin */
+  padding: 15px 30px; /* Increased padding */
+  font-weight: bold;
+  border: none;
+  background: #10b981;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 24px; /* Increased font size */
+}
+
+.shake {
+  animation: shake 0.5s;
+}
+
+.grow-shrink {
+  animation: growShrink 0.5s ease;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-15px); } /* Increased shake distance */
+  40%, 80% { transform: translateX(15px); } /* Increased shake distance */
+}
+
+@keyframes growShrink {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); } /* Increased scaling */
+  100% { transform: scale(1); }
+}
+
+.equals {
+  font-size: 28px; /* Increased font size */
+  font-weight: bold;
+}
+
+.target-result {
+  font-size: 36px; /* Increased font size */
+  font-weight: bold;
+  color: #3b82f6;
+  width: 60px; /* Increased width */
+  text-align: center;
+}

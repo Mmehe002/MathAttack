@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Place Value Blocks Game</title>
+  <link rel="stylesheet" href="/project_app/style.css" />
+  <link rel="stylesheet" href="blocks.css" />
+</head>
+<body>
+  <!-- Adding a back button to the app and routing it to the correct page  -->
+  <div class="back_btn">
+    <a href="/project_app/activities.html">
+        <img src="/project_app/assets/icons/back.svg" alt="back" width="75" height="75">
+    </a>
+</div>
+  <div class="game-container" id="container">
+    <h2>Target: <span id="target">0</span></h2>
+    <div class="blocks" id="blocks"></div>
+    //connecting the button to javascript in order to check the answer 
+    <button class="finish" onclick="checkAnswer()">Finish</button>
+  </div>
+
+  <script src="blocks.js"> </script>
+</body>
+</html>

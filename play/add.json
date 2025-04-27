@@ -1,0 +1,154 @@
+[
+    {
+        "question": "8 + 7 = ?",
+        "choice1": "12",
+        "choice2": "15",
+        "choice3": "16",
+        "choice4": "14",
+        "answer": 2
+    },
+    {
+        "question": "7 + 13 = ?",
+        "choice1": "22",
+        "choice2": "19",
+        "choice3": "20",
+        "choice4": "21",
+        "answer": 3
+    },
+    {
+        "question": "4 + 6 = ?",
+        "choice1": "10",
+        "choice2": "9",
+        "choice3": "12",
+        "choice4": "8",
+        "answer": 1
+    },
+    {
+        "question": "3 + 6 = ?",
+        "choice1": "10",
+        "choice2": "9",
+        "choice3": "7",
+        "choice4": "8",
+        "answer": 2
+    },
+    {
+        "question": "5 + 9 = ?",
+        "choice1": "13",
+        "choice2": "14",
+        "choice3": "15",
+        "choice4": "16",
+        "answer": 2
+    },
+    {
+        "question": "3 + 8 = ?",
+        "choice1": "10",
+        "choice2": "11",
+        "choice3": "12",
+        "choice4": "13",
+        "answer": 2
+    },
+    {
+        "question": "6 + 4 = ?",
+        "choice1": "8",
+        "choice2": "9",
+        "choice3": "10",
+        "choice4": "11",
+        "answer": 3
+    },
+    {
+        "question": "10 + 5 = ?",
+        "choice1": "12",
+        "choice2": "14",
+        "choice3": "15",
+        "choice4": "16",
+        "answer": 3
+    },
+    {
+        "question": "2 + 7 = ?",
+        "choice1": "8",
+        "choice2": "9",
+        "choice3": "10",
+        "choice4": "11",
+        "answer": 2
+    },
+    {
+        "question": "4 + 6 = ?",
+        "choice1": "9",
+        "choice2": "10",
+        "choice3": "11",
+        "choice4": "12",
+        "answer": 2
+    },
+    {
+        "question": "7 + 3 = ?",
+        "choice1": "9",
+        "choice2": "10",
+        "choice3": "11",
+        "choice4": "12",
+        "answer": 2
+    },
+    {
+        "question": "9 + 1 = ?",
+        "choice1": "10",
+        "choice2": "11",
+        "choice3": "12",
+        "choice4": "13",
+        "answer": 1
+    },
+    {
+        "question": "8 + 2 = ?",
+        "choice1": "9",
+        "choice2": "10",
+        "choice3": "11",
+        "choice4": "12",
+        "answer": 2
+    },
+    {
+        "question": "1 + 1 = ?",
+        "choice1": "1",
+        "choice2": "2",
+        "choice3": "3",
+        "choice4": "4",
+        "answer": 2
+    },
+    {
+        "question": "12 + 8 = ?",
+        "choice1": "18",
+        "choice2": "19",
+        "choice3": "20",
+        "choice4": "21",
+        "answer": 3
+    },
+    {
+        "question": "15 + 5 = ?",
+        "choice1": "19",
+        "choice2": "20",
+        "choice3": "21",
+        "choice4": "22",
+        "answer": 2
+    },
+    {
+        "question": "14 + 6 = ?",
+        "choice1": "19",
+        "choice2": "20",
+        "choice3": "21",
+        "choice4": "22",
+        "answer": 2
+    },
+    {
+        "question": "17 + 6 = ?",
+        "choice1": "20",
+        "choice2": "21",
+        "choice3": "22",
+        "choice4": "23",
+        "answer": 4
+    },
+    {
+        "question": "11 + 4 = ?",
+        "choice1": "14",
+        "choice2": "15",
+        "choice3": "16",
+        "choice4": "17",
+        "answer": 2
+    }
+]
